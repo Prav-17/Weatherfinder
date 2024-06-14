@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import Weatherfetch from './components/weatherApi';
 
 function App() {
   return (
     <div className="App">
-      <div>Weather Api</div>
+      <h2>Weather Api</h2>
       <Weatherfetch/>
     </div>
   );
