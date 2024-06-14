@@ -8,3 +8,9 @@
   display: grid;
   grid-template-rows: 1fr 11fr;
 }
+
+@media only screen and (max-width: 768px) {
+  .App{
+    padding: 5%;
+  }
+}

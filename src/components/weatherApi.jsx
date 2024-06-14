@@ -82,7 +82,7 @@ const Weatherfetch = () => {
     return(
         <div className='weatherapiDiv'>
             <div className='search'>
-                <input type='text' placeholder='search' className='inputbox' onChange={(e)=>{setCityName(e.target.value)}}/>
+                <input type='text' placeholder='Enter City Name' className='inputbox' onChange={(e)=>{setCityName(e.target.value)}}/>
                 <button className='fetchbutton' onClick={fetchData}>Fetch</button>
             </div>
             <div className='card'>

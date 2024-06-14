@@ -69,3 +69,35 @@
 .fetchbutton:hover{
     box-shadow: 0 8px 22px 0 rgb(37 44 97 / 15%), 0 4px 6px 0 rgb(93 100 148 / 20%);
 }
+
+@media only screen and (max-width: 768px) {
+    .search{
+        margin: auto;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        width: 100%;
+        column-gap: 20px;
+    }
+    .card{
+        display: grid;
+        margin: auto;
+        margin-top: 50px;    
+        text-align: left;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 7fr;
+        row-gap: 15px;
+        width: 100%;
+        padding: 2%;
+        font-family:sans-serif;
+        font-weight: bold;
+        background-color: rgba(255, 255, 255, 0.535);
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.21);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3.8px);
+        -webkit-backdrop-filter: blur(3.8px);
+        border: 1px solid rgba(255, 255, 255, 0.34);
+    }
+    .cardimg{
+        width: 200px;    
+    }
+}
